@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bruno+Ace+SC&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Bruno Ace SC */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bruno+Ace+SC&family=Charm:wght@400;700&family=Cookie&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Charm */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bruno+Ace+SC&family=Charm:wght@400;700&family=Cookie&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sail&display=swap');
+/* Sail */
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("https://img.freepik.com/premium-photo/template-sandglass-transparent-background-passing-time-countdown-deadline-dark-background-with-copy-space_372999-9156.jpg") center center;
+    background-size: cover;
+}
+.black{
+    padding-top: 2rem;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    border: 15px solid rgb(172, 32, 32);
+}
+
+
+.font{
+    font-family: Bruno Ace SC;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.title2{
+    color: rgba(255, 255, 255, 0.678);
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-family: Charm;
+}
+
+.box{
+    margin-top: 5rem;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid greenyellow; */
+}
+.box div{
+    width:15rem;
+    text-align: center;
+}
+input{
+    width: 50%;
+    height:3.2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.5rem;
+    border-color: transparent;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.name{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    font-family: Sail;
+}
+
